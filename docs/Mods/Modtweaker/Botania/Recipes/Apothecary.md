@@ -3,9 +3,9 @@
 The Apothecary package is used for adding or removing recipes to/from the Botania Petal Apothecary.
 
 ## Calling
-You can call the Apothecary package using `mods.botania.Apothecary`
+你可以使用这个修改花药台合成 `mods.botania.Apothecary`
 
-## Recipe addition
+## 添加合成
 
 You can either add recipes using the returned [IItemStack](/Vanilla/Items/IItemStack/) as output parameter, or the name of the botania flower as string. the string name only works for botania flowers.  
 Remember one thing though:  
@@ -19,7 +19,7 @@ mods.botania.Apothecary.addRecipe(<minecraft:melon>, [<ore:petalLime>, <ore:peta
 mods.botania.Apothecary.addRecipe("daybloom", [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>, <ore:petalRed>]);
 ```
 
-## Recipe removal
+## 删除合成
 
 You can either remove recipes using the returned [IItemStack](/Vanilla/Items/IItemStack/) as output parameter, or the name of the botania flower as string. the string name only works for botania flowers.
 
