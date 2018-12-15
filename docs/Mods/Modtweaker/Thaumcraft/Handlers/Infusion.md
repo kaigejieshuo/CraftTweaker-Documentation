@@ -1,6 +1,6 @@
-# Infusion
+# 注魔
 
-This package allows you to add and remove recipes to/from the Infusion.
+这个是添加/删除注魔合成.
 
 ## Importing the package
 
@@ -9,7 +9,7 @@ You can [import](/AdvancedFunctions/Import/) the package and its methods to faci
 import mods.thaumcraft.Infusion;
 ```
 
-## Adding recipes
+## 添加合成
 
 ```
 //mods.thaumcraft.Infusion.registerRecipe(String name, String research, IItemStack output, int instability, CTAspectStack[] aspects, IIngredient centralItem, IIngredient[] recipe);
@@ -17,7 +17,7 @@ mods.thaumcraft.Infusion.registerRecipe("testName", "", <minecraft:diamond>, 20,
 ```
 
 
-## Removing recipes
+## 删除合成
 
 ```
 //mods.thaumcraft.Infusion.removeRecipe(String name);
