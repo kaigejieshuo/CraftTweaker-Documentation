@@ -1,6 +1,6 @@
-# Crucible
+# 坩埚
 
-This package allows you to add and remove recipes to/from the Crucible.
+这个是添加/删除坩埚合成.
 
 ## Importing the package
 
@@ -9,7 +9,7 @@ You can [import](/AdvancedFunctions/Import/) the package and its methods to faci
 import mods.thaumcraft.Crucible;
 ```
 
-## Adding recipes
+## 添加合成
 
 ```
 //mods.thaumcraft.Crucible.registerRecipe(String name, String researchKey, IItemStack output, IIngredient input, CTAspectStack[] aspects);
@@ -17,7 +17,7 @@ mods.thaumcraft.Crucible.registerRecipe("crucibleTest", "", <minecraft:diamond>,
 ```
 
 
-## Removing recipes
+## 删除合成
 
 ```
 //mods.thaumcraft.Crucible.removeRecipe(String name);
