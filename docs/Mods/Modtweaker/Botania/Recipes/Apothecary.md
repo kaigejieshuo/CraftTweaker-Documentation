@@ -1,4 +1,4 @@
-# Petal Apothecary
+# 花药台
 
 The Apothecary package is used for adding or removing recipes to/from the Botania Petal Apothecary.
 
