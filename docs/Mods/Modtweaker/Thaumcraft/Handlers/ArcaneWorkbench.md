@@ -1,6 +1,6 @@
-# Arcane Workbench
+# 奥术工作台
 
-This package allows you to add and remove recipes to/from the Arcane Workbench.
+这个是添加/删除奥术工作台工作台合成
 
 ## Importing the package
 
@@ -9,7 +9,7 @@ You can [import](/AdvancedFunctions/Import/) the package and its methods to faci
 import mods.thaumcraft.ArcaneWorkbench;
 ```
 
-## Adding recipes
+## 添加合成
 
 ```
 //mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(String name, String research, int vis, CTAspectStack[] aspectList, IItemStack output, IIngredient[][] input);
@@ -21,7 +21,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("tests", "", 20, [<aspec
 ```
 
 
-## Removing recipes
+## 删除合成
 
 ```
 //mods.thaumcraft.ArcaneWorkbench.removeRecipe(String name);
