@@ -1,9 +1,9 @@
-# Entity Aspects
+# 生物要素
 
-Modtweaker's Thaumcraft integration extends [IEntityDefinition](/Vanilla/Entities/IEntityDefinition/).  
+Modtweaker的Thaumcraft集成扩展 [IEntityDefinition](/Vanilla/Entities/IEntityDefinition/).  
 That means that you can use the methods below on any IEntityDefinition object: 
 
-## Set aspects
+## 设置要素
 
 You can use this to override what aspects an entity would normally have.  
 Requires a [CTAspectStack](/Mods/Modtweaker/Thaumcraft/Aspects/CTAspect/)[] or many [CTAspectStack](/Mods/Modtweaker/Thaumcraft/Aspects/CTAspect/) objects.
@@ -13,7 +13,7 @@ Requires a [CTAspectStack](/Mods/Modtweaker/Thaumcraft/Aspects/CTAspect/)[] or m
 ```
 
 
-## Remove aspects
+## 删除要素
 
 You can use this to prevent certain aspects from being added to an entity.  
 Requires a [CTAspectStack](/Mods/Modtweaker/Thaumcraft/Aspects/CTAspect/)[] or many [CTAspectStack](/Mods/Modtweaker/Thaumcraft/Aspects/CTAspect/) objects.
