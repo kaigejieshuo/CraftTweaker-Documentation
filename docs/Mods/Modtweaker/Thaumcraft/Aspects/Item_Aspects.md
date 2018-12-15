@@ -1,9 +1,9 @@
-# Item Aspects
+# 物品要素
 
-Modtweaker's Thaumcraft integration extends [IItemStacks](/Vanilla/Items/IItemStack/).  
+Modtweaker的Thaumcraft集成扩展 [IItemStacks](/Vanilla/Items/IItemStack/).  
 That means that you can use the methods below on any IItemStack object: 
 
-## Set aspects
+## 设置要素
 
 You can use this to override what aspects an item would normally have.  
 Requires a [CTAspectStack](/Mods/Modtweaker/Thaumcraft/Aspects/CTAspect/)[] or many [CTAspectStack](/Mods/Modtweaker/Thaumcraft/Aspects/CTAspect/) objects.
@@ -13,7 +13,7 @@ Requires a [CTAspectStack](/Mods/Modtweaker/Thaumcraft/Aspects/CTAspect/)[] or m
 ```
 
 
-## Remove aspects
+## 删除要素
 
 You can use this to prevent certain aspects from being added to an item.  
 Requires a [CTAspectStack](/Mods/Modtweaker/Thaumcraft/Aspects/CTAspect/)[] or many [CTAspectStack](/Mods/Modtweaker/Thaumcraft/Aspects/CTAspect/) objects.
