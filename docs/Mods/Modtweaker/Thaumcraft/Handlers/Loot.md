@@ -1,6 +1,6 @@
-# Loot Bags
+# 奖励袋
 
-This package allows you to add and remove items to/from the Loot Bags.
+这个是添加/删除奖励袋的奖励.
 
 ## Importing the package
 
@@ -9,17 +9,17 @@ You can [import](/AdvancedFunctions/Import/) the package and its methods to faci
 import mods.thaumcraft.LootBag;
 ```
 
-## Loot types
-You need to provide an array of one or multiple numbers from 0 to 2 (inclusive) to the functions.  
-Those determine the type of lootbag to be affected.  
+## 奖励参数
+由数字来控制它的类型 0 - 2 .  
+这将决定奖励袋的类型.  
 
-- 0: Common
-- 1: Uncommon
-- 2: Rare
+- 0: 常见
+- 1: 罕见
+- 2: 稀有
 
-## Adding items
+## 添加物品
 
-Notice: Gold coins have a value of 2000, diamonds are 50.
+注意：黄金几率2000，钻石几率50。
 
 ```
 //mods.thaumcraft.LootBag.addLoot(WeightedItemStack stack, int[] bagTypes)
@@ -27,7 +27,7 @@ mods.thaumcraft.LootBag.addLoot(<minecraft:dirt>%20000, [0,1,2]);
 ```
 
 
-## Removing items
+## 删除物品
 
 ```
 //mods.thaumcraft.LootBag.removeLoot(IItemStack stack, int[] bagTypes);
